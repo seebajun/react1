@@ -1,0 +1,28 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 50%;
+    border: 1px solid rgb(145, 241, 230);
+    background-color: black;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+  
+  img{
+    width: 80%;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 10px rgba(35, 163, 125, 0.552);
+  }
+  button{
+  margin: 1rem 0rem 2rem 0rem;
+}
+  h3{
+    margin: 0.5rem;
+  }
